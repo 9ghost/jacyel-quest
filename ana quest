@@ -1,0 +1,6 @@
+qtde = int(input("Digite o Número de Itens:"))
+lista = [0] * qtde
+for i in range (qtde):
+    lista[i] = (input("Itens:"))   
+print(lista)
+print(" ".join(lista))
